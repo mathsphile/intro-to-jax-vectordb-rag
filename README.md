@@ -1,10 +1,7 @@
-# spanking 🍑👋
+To use the `VectorDB` class, you can follow these steps:
 
-To use the 🍑👋 `VectorDB` class, you can follow these steps:
-
-1. Create an instance of the 🍑👋 `VectorDB` class:
+1. Create an instance of the `VectorDB` class:
 ```python
-from spanking import VectorDB
 vector_db = VectorDB(model_name='BAAI/bge-base-en-v1.5')
 ```
 You can optionally specify a different pre-trained sentence transformer model by passing its name to the constructor.
@@ -87,10 +84,9 @@ print(num_texts)
 ```
 This will return the number of texts currently stored in the database.
 
-Here's an example usage of the 🍑👋 `VectorDB` class:
+Here's an example usage of the `VectorDB` class:
 
 ```python
-from spanking import VectorDB
 vector_db = VectorDB()
 
 # Add texts to the database
@@ -126,4 +122,4 @@ df = loaded_vector_db.to_df()
 print(df.head())
 ```
 
-This example demonstrates how to create a 🍑👋 `VectorDB` instance, add texts, search for similar texts, update and delete texts, and iterate over the stored texts.
+This example demonstrates how to create a `VectorDB` instance, add texts, search for similar texts, update and delete texts, and iterate over the stored texts.

@@ -75,6 +75,3 @@ class VectorDB:
 
     def __iter__(self):
         return iter(self.texts)
-
-def main():
-    print("🍑👋")
